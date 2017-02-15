@@ -4,11 +4,21 @@
 <body>
 
 <!--
-Welcome,
-Run this function
+Congratulations!
+You've solved this incredibly elaborate and challenging puzzle!
+
+If you're interested in getting paid to solve elaborate and challenging puzzles such as this, 
+come join us for some coffee at our headquarters in downtown Birmingham.
+
+Drop us a message here: https://www.hipchat.com/gOG7p6Onz
+
 -->
 <script>
-	function hey(){alert("batman!")};
+	function timeForCoffeeYet(){
+		var content = document.getElementById("content");
+		content.innerHTML = "<img src='coffee.gif'/>";
+		
+	};
 
 
 
@@ -21,7 +31,8 @@ Run this function
 <br>
 <br>
 <hr>
-<h1 style="color:gray;font-family:arial">“Life would be so much easier if we only had the source code.” - Anonymous</h1>
+<h1 id="content" style="color:gray;font-family:arial">“Life would be so much easier if we only had the source code.” - Anonymous</h1>
+
 <hr>
 </body>
 </html>
